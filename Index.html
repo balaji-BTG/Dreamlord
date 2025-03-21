@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Lord Project</title>
+    <title>Dream Lord - Aakhyan</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="profile">
-        <button onclick="openChat()">RUB</button>
+    <!-- Profile Button -->
+    <button id="profileButton" class="profile">RUB</button>
+
+    <!-- Live Clock -->
+    <div class="clock" id="liveClock">Live Time: 00:00:00</div>
+
+    <!-- Finalized Button -->
+    <button id="finalizedButton" class="finalized">Finalized</button>
+
+    <!-- Hidden Script Section -->
+    <div id="scriptSection" class="script-section">
+        <h2>Dream Lord: Season 1 - Final Script</h2>
+        <p>Storyline: Balaji, a 16-year-old dreamer, discovers a mysterious book that allows him to enter a surreal dream world called Rêvanya. To escape and return to reality, he must defeat the enigmatic Dream Lord, confronting his fears and unraveling the secrets of the dream world...</p>
     </div>
-    <h1 id="live-time">Live Time: </h1>
-    <div class="menu">
-        <button onclick="showScript()">Finalized</button>
-    </div>
-    <div id="script-content" class="content">
-        <!-- Final script here -->
-    </div>
+
     <script src="script.js"></script>
 </body>
-  </html>
+</html>
